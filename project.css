@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-image:;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.navbar {
+    background-color: #555;
+    overflow: auto;
+    text-align: center;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+
+
+
+  .active{
+  background: black;
+  }
