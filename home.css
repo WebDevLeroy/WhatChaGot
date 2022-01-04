@@ -14,12 +14,11 @@ body{
 
 /*center navbar*/
 .navbar {
+    float: right;
+    width: 65%;
     background-color: #424242;
     overflow: hidden;
-    width: 80%;
     border-radius: 65px;
-    margin: auto;
-    position: relative;
   }
   
   .navbar a {
@@ -37,36 +36,101 @@ body{
     background-color: #000;
   }
 
-  .active{
-  background: black;
+  .navbar .active{
+    background: black;
   }
 
-  .menu {
-    padding-top:60px;
-    overflow: auto;
-    background-color: black;
-    font-family: Arial;
-    width: 100%;
-  }
- 
-  .menu a:hover, .dropdown:hover .dropbtn {
-    background-color: white;
-    width: 100%;
-    color: black;
-  }
-
-  .container{
+  .container {
+    margin-top: 20px;
     background-color: #424242;
     overflow: hidden;
-    width: 25%;
-    border-radius: 65px;
-    margin: left;
-    padding: 10px;
-    text-align: center;
-    color: white;
+    border-radius: 40px;
+    width: 30%;
   }
 
-  .headerbox{
-    margin: 20px;
-    padding: 20px;
+   .container a{
+    float: left;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.3333%;
+    text-align: center;
+   }
+
+   .container a:hover {
+     background-color: black;
+   }
+
+   .container .active{  
+     background-color: black;
+   }
+
+   .header{
+     margin-top: 20px;
+     font-size: 30px;
+     display: grid;
+     margin: auto;
+   }
+
+   .listcontainer {
+     display: grid;
+     margin-top: 20px;
+     background-color: #424242;
+     overflow: hidden;
+     border-radius: 30px;
+   }
+
+   .listcontainer a {
+     grid-template-columns: 10% 20% 40% 30%;
+     padding: 5px;
+   }
+
+   .addToList {
+     display: grid;
+     margin-top: 20px;
+     background-color: #424242;
+     overflow: hidden;
+     border-radius: 30px;
+   }
+
+   .addform {
+     display: grid;
+     margin-top: 20px;
+     margin: auto  ;
+     width: 65%;
+     background-color: #424242;
+     overflow: hidden;
+     border-radius: 65px;
+   }
+
+   .addform input {
+     margin-top: 20px;
+     width: 80%;
+   }
+
+  .footerlinks{
+    margin-top: 20px;
+    margin: auto;
+    width: 30%;
+    background-color: #424242;
+    overflow: hidden;
+    border-radius: 65px;
+    text-decoration: none;
+  }
+
+  .footerlinks a{
+    float: left;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .footerlinks a:hover{
+    background-color: #000;
   }
