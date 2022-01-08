@@ -97,12 +97,23 @@ body{
 
    .addform {
      display: grid;
+     grid-template-rows: 80% 20%;
      margin-top: 20px;
-     margin: auto  ;
      width: 65%;
      background-color: #424242;
      overflow: hidden;
      border-radius: 65px;
+   }
+
+   .addform a{
+     text-align: center;
+     text-decoration: none;
+     color: white;
+
+   }
+
+   .addform a:hover {
+     background-color: black;
    }
 
    .addform input {
