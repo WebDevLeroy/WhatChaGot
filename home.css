@@ -59,7 +59,7 @@ body{
     text-align: center;
    }
 
-   .container a:hover {
+   .container a:hover{
      background-color: black;
    }
 
@@ -70,11 +70,10 @@ body{
    .header{
      margin-top: 20px;
      font-size: 30px;
-     display: grid;
      margin: auto;
    }
 
-   .listcontainer {
+   .listcontainer{
      display: grid;
      margin-top: 20px;
      background-color: #424242;
@@ -96,12 +95,9 @@ body{
    }
 
    .addform {
-     display: grid;
-     grid-template-rows: 80% 20%;
      margin-top: 20px;
-     width: 65%;
+     width: 30%;
      background-color: #424242;
-     overflow: hidden;
      border-radius: 65px;
    }
 
@@ -109,7 +105,7 @@ body{
      text-align: center;
      text-decoration: none;
      color: white;
-
+    width: 30%;
    }
 
    .addform a:hover {
@@ -117,12 +113,36 @@ body{
    }
 
    .addform input {
-     margin-top: 20px;
+     display: inline-flexbox;
+     height: 3rem;
      width: 80%;
+     border-top-left-radius: 65px;
+     border-bottom-left-radius: 65px;
+     padding: 1em;
+     font-size: 1rem;
+   }
+
+   .addtext {
+     width: 100%;
+     height: 100%;
+   }
+
+   .addbutton{
+     display: inline-flex;
+     overflow: hidden;
+   }
+
+   .addbutton a{
+    font-size: 1.2em;
+    float: right;
+    text-decoration: none;
+   }
+
+   .addbutton a:hover{
+     background-color: black;
    }
 
   .footerlinks{
-    margin-top: 20px;
     margin: auto;
     width: 30%;
     background-color: #424242;
