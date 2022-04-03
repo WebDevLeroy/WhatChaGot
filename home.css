@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: gray;
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -20,6 +20,7 @@ body{
     overflow: hidden;
     border-radius: 65px;
   }
+  
   
   .navbar a {
     float: left;
@@ -96,7 +97,6 @@ body{
 
    .addform {
      margin-top: 20px;
-     width: 30%;
      background-color: #424242;
      border-radius: 65px;
    }
@@ -105,7 +105,6 @@ body{
      text-align: center;
      text-decoration: none;
      color: white;
-    width: 30%;
    }
 
    .addform a:hover {
@@ -129,11 +128,9 @@ body{
 
    .addbutton{
      display: inline-flex;
-     overflow: hidden;
    }
 
    .addbutton a{
-    font-size: 1.2em;
     float: right;
     text-decoration: none;
    }
@@ -149,6 +146,9 @@ body{
     overflow: hidden;
     border-radius: 65px;
     text-decoration: none;
+    position: absolute;
+    bottom: 0%;
+
   }
 
   .footerlinks a{
